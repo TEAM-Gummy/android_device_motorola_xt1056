@@ -28,13 +28,10 @@
 
 LOCAL_PATH := device/motorola/xt1056
 
-# NFC
-BOARD_HAVE_NFC := true
-
-#bluetooth
+# Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
-#TWRP
+# TWRP
 DEVICE_RESOLUTION := 720x1280
 
 # userdata size is double for maxx
